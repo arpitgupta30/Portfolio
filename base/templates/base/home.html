@@ -1,0 +1,102 @@
+{% load static %}
+
+
+
+<!--<h1> hey !! </h1>
+<img src = "{% static 'images/profile_picture.jpg' %}" height = 250 width = 250 >
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Arpit Gupta</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static '/css/main.css' %}">
+</head>
+<body>
+    <br>
+    <div class = "container">
+        <div class = "row">
+            <div class = "col-md-4">
+                <div class = "card card-body h-100 border-info" id = 'profile-wrapper'>
+                    <img id = 'profile-pic' src = "{% static 'images/profile_picture.jpg' %}">
+                    <hr>
+                    <h4> I am Arpit </h4>
+                    <p>A programmer with a good understanding of data structure and algorithms. An effecient coder in java. Have sufficient knowledge about OS and DBMS</p>
+                    <br>
+                </div>
+            </div>
+            <div class = "col-md-8">
+                <div class = "card card-body h-100 border-info">
+                <h3> Introduction </h3>
+                <hr>
+                <p> I am a final year student. Currently pursuing my Bachelors in Computer Science and Engineering from Harcourt Butler Technical University located in Kanpur. I am from Dehradun</p> 
+                <p> My aggregate in B.Tech currently is 74.1%. My percentage in 10th and 12th were 95 and 92.4 respectively.</p>
+                <p>I am an incoming Software Engineer in Samsung, Noida.</p> 
+                <ul class = 'social-links'>
+                    <li > <a href = "https://auth.geeksforgeeks.org/user/arpitgupta_123/practice/"><img class = 'social' src = "{% static 'images/gfg_logo.png' %}"></a> </li >
+                    <li > <a href="https://leetcode.com/arpitgupta_123/"><img class = 'social' src = "{% static 'images/LeetCode_logo.png' %}"></a> </li>
+                    <li > <a href="https://codechef.com/users/arpitgupta_123/"><img class = 'social' src = "{% static 'images/codechef_logo.png' %}"> </a></li >
+                    <li > <a href="https://www.hackerrank.com/arpitgupta_123"></a><img class = 'social' src = "{% static 'images/HackerRank_logo.png' %}"></a> </li>
+                    <li > <a href="https://www.linkedin.com/in/arpit-gupta-259478154"></a><img class = 'social' src = "{% static 'images/linkedin_logo.png' %}"> </a></li >                   
+                </ul>       
+            
+            </div>
+            </div>
+
+        </div>
+        <br>
+        <div class = "row">
+            <div class = "col-md-6">
+                <div class = "card card-body h-100">
+                    <h3> Projects </h3>
+                    <hr>
+                    <p><b>Big Mart Prediction:</b> Analyzed the significant properties of a product and a store which would have a major impact on the sale of a product. <b>Used</b>: Scikit-learn, matplotlib, pandas</p>
+                    <p><b>Loan Prediction:</b> Created a model to predict whether the applicant is eligible for the loan or not based on his details. <b>Used</b>: Scikit-learn, matplotlib, pandas</p>
+                    <p><b>Classification of Orthopedic Patients:</b> A classification model that categories orthopedic patients into 3 classes (normal, disk hernia, spondilolysthesis) based on the given features so as to automate priority based appointments. <b>Used:</b> Scikit-learn, matplotlib, pandas</p>
+                    <p><b>Twitter Sentiment Analysis:</b> Analyzed thousands of tweets and detected sentiments associated with them. This model flags the tweets that are sexist or racist.<b>Used</b>: Scikit-learn, matplotlib, pandas</p>
+
+                </div>
+            </div>
+            <div class = "col-md-6">
+                <div class = "card card-body h-100">
+                <h3>Position of Responsibilities</h3>
+                <hr>
+                <p>Event Coordinator of Technical Events held under ADHYAAY, HBTU, 2018</p>
+                <p>Core member of Google DSC Team, HBTU</p>
+                <p>Event Coordinator of Hackathon held under E-SUMMIT, HBTU, 2018</p>
+                <p>Event Coordinator of Game Events held under ZEST, HBTU, 2017</p>
+                </div>
+            </div>
+            
+        </div>
+        <br>
+        <div class = "row">
+            <div class = "col-md-6">
+                <div class = "card card-body h-100">
+                    <h3>Scholastic Achievements</h3>
+                    <hr>
+                    <p>Ranked 17th out of 80,000 participants in Sudo Placement 2019, GeeksForGeeks</p>
+                    <p>Present global rank – 119 on GeeksForGeeks</p>
+                    <p>Global rank – 89 on Codechef CookOff OCT 2018</p>
+                    <p>4 star on Codechef, with highest rating of 1853</p>
+                    <p>Qualified for the Elimination Round SnackDown, 2018</p>
+                </div>
+            </div>
+            <div class = "col-md-6">
+                <div class = "card card-body h-100">
+                    <h3>Technical Skills</h3>
+                    <hr>
+                    <p>Machine Learning (Prior Experience) using python (scikit-learn, matplotlib, pandas)</p>
+                    <p>Comfortable with programming in JAVA</p>
+                    <p>Prior Experience in C and Python</p>
+                    <p>Database: MySQL (Prior Experience)</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>   
+</body>
+</html>
